@@ -14,7 +14,7 @@ function Nav() {
         <NavLink className={({isActive})=> isActive ? "active" : null} to="/"> Home </NavLink>
         <NavLink className={({isActive})=> isActive ? "active" : null} to="/menu"> Menü </NavLink>
         <NavLink className={({isActive})=> isActive ? "active" : null} to="/prices"> Angebote </NavLink>
-        <Link to="#contact"> Kontakt </Link>
+        <a href="#contact"> Kontakt </a>
       </div>}
       <div className="nav-bar">
         <NavLink className={({isActive})=> isActive ? "active" : null} to="/"> Home </NavLink>

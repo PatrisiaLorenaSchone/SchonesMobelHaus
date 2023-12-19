@@ -11,8 +11,8 @@ import photo6 from '../assets/folie2.jpeg'
 
 function Menupage() {
   return (
-    <div>
-      <Header text='Menü'/>
+    <div className='menu-page'>
+      <Header/>
     <section>
       <div className="menu">
         <img  className="ph1" width={350} height={500} src={photo1} alt="" />
@@ -26,7 +26,8 @@ function Menupage() {
       </div>
     </section>
     <section className='padding'>
-      <p>        <p>Wir haben kleine und große Umzugskartons für persönliche Gegenstände oder Haushaltsgegenstände. Die perfekte Kleiderbox für Ihre Kleidung. Wir haben auch Plastikfolie zum Schutz Ihrer Artikel.</p></p>
+      <p>Wir haben kleine und große Umzugskartons für persönliche Gegenstände oder Haushaltsgegenstände. 
+        Die perfekte Kleiderbox für Ihre Kleidung. Wir haben auch Plastikfolie zum Schutz Ihrer Artikel.</p>
       <div className='menu-ph'>
       <img height={300} src={photo5} alt="" /><img height={300} src={photo3} alt="" /><img height={300} src={photo4} alt="" />
       </div>

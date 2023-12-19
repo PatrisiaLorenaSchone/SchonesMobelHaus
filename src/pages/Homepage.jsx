@@ -26,7 +26,7 @@ function Homepage() {
         <motion.div 
         initial={{opacity:0}}
         animate={{opacity:1}}
-        transition={{duration:8}}
+        transition={{duration:7.5}}
         className="col hero-text">
         <h1 className="main-title">SCHÖNES MÖBELHAUS</h1>
         <motion.p
@@ -65,10 +65,9 @@ function Homepage() {
       initial={{y: 200, opacity:0}}
       whileInView={{y: 0, opacity:1}}
       transition={{duration:1}}
-      id='umzug'
       className='umzug'
       >
-        <img  src={camion} alt="" id="raumung"/>
+        <img  src={camion} alt="" id='umzug'/>
           <div className="col auto">
           <Title text="Umzüge aller Art"/>
           <p>Sind Sie auf der Suche nach einer zuverlässigen und schnellen Umzugsfirma zum günstigen Preis, da Sind Siee genau richtig bei uns.</p>
@@ -104,10 +103,9 @@ function Homepage() {
       initial={{y: 200, opacity:0}}
       whileInView={{y: 0, opacity:1}}
       transition={{duration:1}}
-      id="raumung"
       className='transport'
       >
-        <img src={raumung} alt="" />
+        <img src={raumung} alt="" id="raumung"/>
         <div className="col auto">
         <Title text="Haushalts und Wohnungsauflösung"/>
           <p>Möchten Sie Platz schaffen, weil sich über die Jahre viele unnütze Dinge angesammelt haben?
