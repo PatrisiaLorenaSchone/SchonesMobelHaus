@@ -10,6 +10,7 @@ body{
   margin: 0;
   padding: 0;
   color: #232323;
+  box-sizing: border-box;
 }
 img{
   user-select: none;
@@ -21,6 +22,14 @@ ul{
 span{
   font-weight: 500;
 
+}
+::-webkit-scrollbar{
+  background-color: rgba(255, 166, 0, 0.3);
+  width: 10px;
+}
+::-webkit-scrollbar-button{
+  color: white;
+  height: 10px;
 }
 iframe{
   border: none;
@@ -167,6 +176,7 @@ section p{
 }
 section h3{
   color:rgba(56, 56, 56, 0.7);
+  padding: 3.5%;
 }
 .col{
   display: flex;
@@ -296,6 +306,8 @@ position: absolute;
 background-color: rgba(65, 105, 225, 0.8);
 width: 100%;
 height: 80%;
+padding: 10px;
+box-sizing: border-box;
 background-size: cover;
 display: flex;
 justify-content: center;
@@ -434,6 +446,7 @@ label{
   color: white;
   text-align: left;
   width: 35px;
+  margin-right: 5px;
 }
 input, textarea{
   padding: 10px 20px;
@@ -517,7 +530,7 @@ padding: 5%;
   height: 100%;
   }
   section{
-  width:90%;
+  width:95%;
   }
   .main-title{
     font-size: 3rem;
@@ -536,8 +549,11 @@ padding: 5%;
     height: 50px;
     width: 50px;
   }
+  label{
+    margin-right: auto;
+  }
 }
-@media  screen and (max-width: 930px){
+@media  screen and (max-width: 935px){
   .menu img{
     width: 90%;
   }
@@ -556,6 +572,10 @@ padding: 5%;
   }
   #background-video{
     display: none;
+  }
+  .review-section{
+    overflow-y: scroll;
+    max-height: 350px
   }
 }
 @media  screen and (max-width: 1400px){

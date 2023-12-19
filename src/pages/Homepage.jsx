@@ -56,7 +56,7 @@ function Homepage() {
         </div>
         <div className='reviews-container'>
         <h3>Wie aus den Bewertungen hervorgeht, sind wir ein 5-Sterne-Umzugsunternehmen</h3>
-      <div className='review-section'>
+      <div>
         <Review />
       </div>
       </div>
