@@ -15,7 +15,7 @@ function App() {
             <Route path='menu' element={<MenuPage />}/>
             <Route path='prices' element={<PricePage />}/>
             <Route path='*' element={<Errorpage/>}/>
-            <Route path='impresum' element={<Impresum/>}/>
+            <Route path='impressum' element={<Impresum/>}/>
           </Route>
         </Routes >
     </BrowserRouter>

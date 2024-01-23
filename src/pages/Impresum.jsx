@@ -4,7 +4,7 @@ import React from 'react'
 function Impresum() {
   return (
     <div className='impresum'>
-      <h2>Impresum</h2>
+      <h2>Impressum</h2>
         <p>SchöneMöbelhaus</p>
         <p>Watzmannstrasse 15</p>
         <p>84503 Altötting</p>
