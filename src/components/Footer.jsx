@@ -30,19 +30,19 @@ function Footer() {
     e.preventDefault()
     setSend(true)
 
-  //   fetch("formsubmit.co/schoneioan@gmail.com", {
-  //     method: "POST",
-  //     headers: { 
-  //         'Content-Type': 'application/json',
-  //         'Accept': 'application/json'
-  //     },
-  //     body: JSON.stringify({
-  //         ...data
-  //     })
-  // })
-  //     .then(response => response.json())
-  //     .then(data => console.log(data))
-  //     .catch(error => console.log(error));
+    fetch("formsubmit.co/schoneioan@gmail.com", {
+      method: "POST",
+      headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+          ...data
+      })
+  })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.log(error));
       
   //   setMessage((prevMessage)=> !prevMessage);
   };
