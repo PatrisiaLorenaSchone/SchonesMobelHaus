@@ -30,7 +30,7 @@ function Footer() {
     e.preventDefault()
     setSend(true)
 
-    fetch("formsubmit.co/schoneioan@gmail.com", {
+    fetch("https://formsubmit.co/ajax/schoneioan@gmail.com", {
       method: "POST",
       headers: { 
           'Content-Type': 'application/json',
