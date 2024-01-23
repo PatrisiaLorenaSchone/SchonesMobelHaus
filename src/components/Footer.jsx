@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import youtubeIcon from '../assets/youtube-icon.png'
 import phoneIcon from '../assets/phone-icon.png'
 import navigationIcon from '../assets/navigation-icon.png'
@@ -94,7 +95,7 @@ function Footer() {
         <li><span>Telefonnummer:</span> 015175434183</li>
         <li><span>Emailadresse:</span> schoneioan@gmail.com</li>
         <li><span>Standort:</span> Watzmannstrasse 15 84503 Altötting</li>
-        <li><span>Impresum</span></li>
+        <Link to={'/impresum'}>Impresum</Link>
        </ul>
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.8337066063577!2d12.661896599999999!3d48.2290766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4775c47a3cc88c05%3A0x6b684d35a643ae7c!2sWatzmannstra%C3%9Fe%2015%2C%2084503%20Alt%C3%B6tting!5e0!3m2!1sen!2sde!4v1702660899440!5m2!1sen!2sde"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
        <div className="row flyer">

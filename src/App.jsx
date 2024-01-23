@@ -4,6 +4,7 @@ import PricePage from './pages/Pricepage';
 import Layoutpage from './pages/Layoutpage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Errorpage from './pages/Errorpage';
+import Impresum from './pages/Impresum';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='menu' element={<MenuPage />}/>
             <Route path='prices' element={<PricePage />}/>
             <Route path='*' element={<Errorpage/>}/>
+            <Route path='impresum' element={<Impresum/>}/>
           </Route>
         </Routes >
     </BrowserRouter>

@@ -19,6 +19,20 @@ ul{
   text-align: left;
   list-style: none;
 }
+.impresum{
+  padding: 10%;
+  background-color: rgba(240, 248, 255, 0.8);
+  background-image: url(./assets/logopng.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten
+}
+.impresum h2{
+  display: inline-block;
+  color: orange;
+  border-bottom: 2px solid royalblue;
+}
 span{
   font-weight: 500;
 
@@ -383,6 +397,11 @@ footer{
   flex-direction: column;
   gap: 30px;
   justify-content: center;
+}
+.contact-info a{
+  text-decoration: underline;
+  /* color: gainsboro; */
+  font-weight: 600
 }
 footer p{
   color: rgb(235, 235, 235);
